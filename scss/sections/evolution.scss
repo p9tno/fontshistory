@@ -369,18 +369,23 @@
             width: 46.7em;
             top: -10.3em;
             right: 0;
+            mix-blend-mode: luminosity;
+            z-index: 1;
+
         }
 
         &.second {
-            // width: 21.5em;
-            // bottom: -1.5em;
-            // right: -1.2em;
+            width: 70em;
+            bottom: 5em;
+            right: -4.6em;
+            mix-blend-mode: darken;
         }
 
         &.third {
             width: 35.1em;
             top: 0;
             left: 0;
+            z-index: 5;
 
         }
     }
@@ -391,14 +396,6 @@
         left: -12em;
         width: 60em;
     }
-
-    &__house {}
-
-    &__house {}
-
-    &__house {}
-
-    &__house {}
 
 }
 

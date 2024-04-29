@@ -1499,11 +1499,20 @@ body {
   width: 46.7em;
   top: -10.3em;
   right: 0;
+  mix-blend-mode: luminosity;
+  z-index: 1;
+}
+.evolution__preview.second {
+  width: 70em;
+  bottom: 5em;
+  right: -4.6em;
+  mix-blend-mode: darken;
 }
 .evolution__preview.third {
   width: 35.1em;
   top: 0;
   left: 0;
+  z-index: 5;
 }
 .evolution__hous {
   position: absolute;
@@ -1511,6 +1520,7 @@ body {
   left: -12em;
   width: 60em;
 }
+
 .airplane {
   position: absolute;
 }
